@@ -1,14 +1,17 @@
 * {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
-    background-image: url(./back.png);
     background-size: auto;
 }
 
 body{
-    width: 60%;
+    background-image: url(./back.png);
+    display: flex;
+    display: flex;
+    flex-flow: column;
     margin: auto;
 }
+
 
 img {
     width: 100%;
@@ -19,7 +22,6 @@ button {
 }
 
 nav {
-    background-color: white;
     margin: auto;
     display: flex;
     flex-flow: row wrap;
@@ -40,17 +42,15 @@ main {
 text-align: center;
 }
 
-div {
-    width: 80%;
-    margin: 20px auto;
-}
-
 button { 
     height: 55px;
-    width: 200;
+    width: 150px;
     color: white;
     background-color: #16A085;
+    border-radius: 5px;
+    border-width: 0px;
 }
+
 
 footer {
     text-align: right;
