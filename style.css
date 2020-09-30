@@ -29,6 +29,7 @@ main {
   max-width: 1280px;
   margin: 0 auto;
   text-align: center;
+  background-color: gainsboro;
 }
 
 button {
@@ -41,7 +42,7 @@ button {
   color: white;
   background-color: #16a085;
   border-radius: 5px;
-  border-width: 0px;
+  border: none;
 }
 
 footer {
