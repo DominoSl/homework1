@@ -1,14 +1,14 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+}
+
 header {
   text-align: center;
-  font-weight: bold;
 }
 
 nav {
-  margin: auto;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center space-between;
-  margin: 20px auto;
+  margin: 25px auto;
   width: 60%;
 }
 
@@ -17,11 +17,23 @@ nav a {
   text-align: center;
   margin: auto;
   color: #16a085;
+  padding: 65px;
+  font-size: 18px;
+  border-width: 3px;
+  border-style: solid;
+  border-color: white;
 }
 
-body {
-  font-family: "Roboto", sans-serif;
-  font-weight: bolder;
+nav a:hover {
+  text-decoration: underline;
+  color: #ffffff;
+  color: black;
+  background-color: white;
+  border-radius: 5px;
+  border-color: #16a085;
+  border-width: 3px;
+  border-style: solid;
+
 }
 
 main {
@@ -29,22 +41,50 @@ main {
   max-width: 1280px;
   margin: 0 auto;
   text-align: center;
-  background-color: gainsboro;
+  background-color: rgba(211, 211, 211, 0.2);
+  padding-bottom: 90px;
+}
+
+h1 {
+  margin: 40px 0 20px;
+  text-transform:uppercase;
+  font-size: 22px;
+}
+
+.text {
+  margin: 0 110px;
+  font-size: 16px;
+  letter-spacing: 2.5px;
+}
+
+.text > p  {
+  margin-bottom: 35px;
 }
 
 button {
   margin: 0 auto;
-}
-
-button {
   padding: 15px 0;
   width: 150px;
   color: white;
   background-color: #16a085;
+  border-color: #16a085;
   border-radius: 5px;
-  border: none;
+  border-width: 3px;
+  border-style: solid;
+}
+
+button:hover {
+ color: black;
+ background-color: white;
+ border-radius: 5px;
+ border-color: #16a085;
+ border-width: 3px;
+ border-style: solid;
 }
 
 footer {
+  width: 100%;
+  max-width: 1280px;
   text-align: right;
+  margin: 50px  auto;
 }
